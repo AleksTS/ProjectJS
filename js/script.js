@@ -609,8 +609,9 @@ const family = [
 family.forEach(item => Object.setPrototypeOf(item, Person.prototype));
 
 const query = person => {
-  return person.age <= 35;
+  return person.age <= 30;
 };
 
 const res = family.filter(query);
 console.log(res.join('\n'));
+
