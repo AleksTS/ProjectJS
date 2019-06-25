@@ -46,3 +46,16 @@ a:active {
 body {
     font-family: sans-serif;
 }
+
+.footer {
+    color: #666;
+    background-color: #ccc;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 14px;
+}
+
+.footer a {
+    color: inherit;
+    text-decoration: underline;
+}
