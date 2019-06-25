@@ -587,6 +587,7 @@ console.log(o.toString());
 
 */
 
+/*
 const family = [
   ['father', 'Aleksandr', 59],
   ['mother', "Svetlana", 57],
@@ -614,4 +615,4 @@ const query = person => {
 
 const res = family.filter(query);
 console.log(res.join('\n'));
-
+*/
